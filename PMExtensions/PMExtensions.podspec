@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author       = "Phillip Maizza"
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/PhillipMaizza/PMExtensions.git", :tag => "#{spec.version}" }
-  spec.source_files  = "PMUtils/**/*.{h,m,swift}"
+  spec.source_files  = "PMExtensions/**/*.{h,m,swift}"
   spec.requires_arc = true
   # spec.dependency "JSONKit", "~> 1.4"
 end
